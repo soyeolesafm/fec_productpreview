@@ -7,8 +7,9 @@
 }
 
 body{
-    background-color: hsl(0, 0%, 100%) ;
+   
     color: hsl(158, 36%, 37%);
+    background-color: hsl(30, 38%, 92%);
 }
 
 
@@ -97,4 +98,27 @@ body{
 .attribution{
     font-size: 12px;
     text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        display: flex;
+        align-self: center;
+        margin: auto;
+        margin-top: 10%;
+        width: 650px ;
+        background-color: hsl(0, 0%, 100%) 
+    }
+    .product_photo{
+        background-image: url(./images/image-product-desktop.jpg);
+        background-size: fixed;
+        height: 450px;
+        width: 300px;
+    }
+    .product_overview {
+        width: 300px;
+        margin: auto;
+        
+    }
+
 }
