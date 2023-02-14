@@ -100,7 +100,7 @@ body{
     text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 780px) {
     .container {
         display: flex;
         align-self: center;
